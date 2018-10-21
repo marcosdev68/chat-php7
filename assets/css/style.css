@@ -1,0 +1,98 @@
+/* 
+	CSS of index.
+	By Marcos André
+*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: 'Open Sans', sans-serif;
+	outline: none;
+	transition: all .23s ease-in-out;
+}
+
+body {
+	background-color: #2196f3;
+}
+
+.content {
+	width: 90%;
+	background: #FFF;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-o-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+
+.chat-box {
+	width:100%;
+	height: 400px;
+}
+
+.chat {
+	height: 100px;
+	max-height: 100px;
+}
+
+.chat-data {
+	width: 100%;
+	height: -100px;
+	max-height: -100px;
+	padding: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #000;
+	font-weight: bold;
+}
+
+/* Span style */
+
+.span01 {
+	color: #007bff;
+	font-style: italic;
+}
+
+.span03 {
+	float: right;
+}
+
+/* Buttons and Inputs styles */
+
+.send {
+	position: relative;
+	background-color: #1f232a;
+	color: #FFF;
+	width: 60%;
+	border-radius: 6px;
+	display: block;
+	margin: auto;
+	padding: 10px 7px;
+}
+
+.send:hover {
+	position: relative;
+	background-color: #007bff;
+	color: #FFF;
+	width: 60%;
+	border-radius: 23px;
+	display: block;
+	margin: auto;
+	padding: 10px 7px;
+	transition: all .23s ease-in-out;
+}
+
+.divScroll {
+    overflow-y:scroll;
+    width:100%;
+    margin: 0 auto;
+}
+
+.imgbot {
+  width: 60px;
+  height: 60px;
+  margin: 0 !important;
+  padding-right: 8px;
+  padding-bottom: 10px;
+  float: left;
+}
